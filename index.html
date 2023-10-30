@@ -9,6 +9,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
    <link rel="stylesheet" href="./css/style.css">
+   <script src="./js/script.js" defer></script>
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
@@ -61,6 +62,39 @@
                <li class="skills__vasya5">Уютные уголки для сна: Васька находит уютные места для сна в самых разных
                   уголках дома, начиная от солнечных пятен на полу до уютных подушек.</li>
             </ul>
+         </div>
+         <div class="slills-scr">
+            <label for="mess">Введите сообщение:</label>
+            <input type="text" id="mess" required>
+            <button type="button" onclick="askName()">Отправить</button>
+
+            <div id="result"></div>
+         </div>
+         <div class="box-calc-sum">
+            <h2>Произведите сложение</h2>
+            <label for="num1">Введите первое число:</label>
+            <input type="text" id="num1" required>
+
+            <label for="num2">Введите второе число:</label>
+            <input type="text" id="num2" required>
+
+            <button onclick="calculate()">Посчитать</button>
+
+            <div id="sum"></div>
+
+         </div>
+         <div class="box-sub">
+            <h2>Произведите вычитание</h2>
+            <label for="operand1">Введите первое число:</label>
+            <input type="text" id="operand1" required>
+
+            <label for="operand2">Введите второе число:</label>
+            <input type="text" id="operand2" required>
+
+            <button onclick="subtraction()">Вычесть</button>
+
+            <div id="sub"></div>
+
          </div>
       </main>
       <footer class="footer">
