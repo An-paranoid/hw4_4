@@ -63,14 +63,20 @@ body {
    padding: 25px;
    margin: 0 auto;
    margin-top: 50px;
+   transition: transform 0.3s ease;
 
 }
 
+.header:hover{
+ color: black;
+ transform: scale(1.2);
+}
 .about__title {
    font-size: 30px;
    font-weight: 700;
    margin-bottom: 50px;
 }
+
 .about__text {
    font-size: 18px;
 }
@@ -191,7 +197,7 @@ button:hover {
    margin-top: 20px;
    padding: 10px;
    border: 1px solid #ddd;
-   background-color: #fff;
+   background-color: #bbc287;
    max-width: 300px;
    word-wrap: break-word;
 }
